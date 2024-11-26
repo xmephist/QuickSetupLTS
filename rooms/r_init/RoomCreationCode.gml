@@ -1,0 +1,2 @@
+room_width = GAME_RESOLUTION_WIDTH
+room_height = GAME_RESOLUTION_HEIGHT
