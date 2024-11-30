@@ -12,8 +12,8 @@ g.GAME_RESOLUTION_SCALE = 1
 #macro START_ROOM r_test
 
 g.gameVolume = {
-	music : 10,
-	sound : 10
+	music : 100,
+	sound : 100
 };
 
 g.emitter = {

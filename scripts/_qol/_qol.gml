@@ -58,6 +58,16 @@ function dbgList(dsList)
 
 #region
 
+function Alpha(alpha = 1)
+	{
+		draw_set_alpha(alpha)
+	}
+	
+function Color(color = c_white)
+	{
+		draw_set_color(color)
+	}
+
 function SetAlign(halign,valign)
 	{
 		draw_set_halign(halign)
