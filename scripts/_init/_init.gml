@@ -11,6 +11,8 @@ g.GAME_RESOLUTION_SCALE = 1
 
 #macro START_ROOM r_test
 
+g.gameFlag = ds_map_create()
+
 g.gameVolume = {
 	music : 100,
 	sound : 100
@@ -29,5 +31,3 @@ g.music = {
 }
 
 g.sound = noone;
-
-g.gameFlags = ds_map_create();
