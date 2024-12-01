@@ -64,3 +64,17 @@ setVarList([
 ```
 
 I will add more in the future, but this is a good starting point for the rewrite, and I'll be archiving the old version of QuickSetup moving forward.
+
+## Flag System
+
+This is a very simple system, but I use it and I think it's good enough
+
+Usage
+```
+setFlag(flag, data)
+
+getFlag(flag) // Returns data in the flag if the data exists
+
+saveGameData() // Filename can be changed in script "_io"
+loadGameData()
+```
